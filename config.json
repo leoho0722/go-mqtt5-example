@@ -1,0 +1,14 @@
+{
+  "mqtt": [
+    {
+      "broker": {
+        "host": "localhost",
+        "port": 1883
+      },
+      "clientID": "mqtt-client",
+      "topic": "sensor/Test/room1",
+      "qosLevel": 2,
+      "isSharedSubscriptionEnabled": false
+    }
+  ]
+}
